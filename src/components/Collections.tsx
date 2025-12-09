@@ -44,6 +44,15 @@ const Collections = () => {
     },
     {
       id: 5,
+      name: "KCL EC Jacket Collab",
+      description: "King's College London Executive Committee jacket with botanical design and custom crest",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      category: "jacket",
+      type: "Jacket"
+    },
+    {
+      id: 6,
       name: "Aston ACS Hoodie Collab",
       description: "Aston University Asian Cultural Society hoodie with Om mandala design and Sanskrit text",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
@@ -52,18 +61,9 @@ const Collections = () => {
       type: "Hoodie"
     },
     {
-      id: 6,
-      name: "UOB FOP Hoodie Collab",
-      description: "University of Birmingham Friends of Palestine hoodie with botanical design collaboration",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
-      category: "hoodie",
-      type: "Hoodie"
-    },
-    {
       id: 7,
-      name: "Oxford ISOC Hoodie Collab",
-      description: "Oxford University Islamic Society collaborative hoodie with Palestine solidarity design",
+      name: "PakSoc Hoodie Collab",
+      description: "Pakistan Society collaborative hoodie with Palestine solidarity design and golden wings",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       category: "hoodie",
@@ -71,8 +71,8 @@ const Collections = () => {
     },
     {
       id: 8,
-      name: "Lancaster ISOC Collab",
-      description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message",
+      name: "KCL ACMS Collab",
+      description: "King's College London African Caribbean Medical Society collaborative hoodie with 'In Unity There is Strength' message",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
       category: "hoodie",

@@ -41,6 +41,15 @@ const Collections = () => {
     },
     {
       id: 5,
+      name: "KCL EC Jacket Collab",
+      description: "King's College London Executive Committee jacket featuring botanical design and custom university crest",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      price: "£39.99",
+      category: "executive"
+    },
+    {
+      id: 6,
       name: "Aston ACS Hoodie Collab",
       description: "Aston University Asian Cultural Society collaborative hoodie featuring intricate Om mandala design with Sanskrit text and cultural symbolism",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
@@ -49,18 +58,9 @@ const Collections = () => {
       category: "collab"
     },
     {
-      id: 6,
-      name: "UOB FOP Hoodie Collab",
-      description: "University of Birmingham Friends of Palestine collaborative hoodie featuring botanical artwork and cultural symbolism",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
-      price: "£26.99",
-      category: "collab"
-    },
-    {
       id: 7,
-      name: "Oxford ISOC Hoodie Collab",
-      description: "Oxford University Islamic Society collaboration featuring powerful Palestine solidarity design with golden wings",
+      name: "PakSoc Hoodie Collab",
+      description: "Pakistan Society collaborative hoodie featuring powerful Palestine solidarity design with golden wings and Arabic calligraphy",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       price: "£26.99",
@@ -68,8 +68,8 @@ const Collections = () => {
     },
     {
       id: 8,
-      name: "Lancaster ISOC Collab",
-      description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message and artistic design",
+      name: "KCL ACMS Collab",
+      description: "King's College London African Caribbean Medical Society collaborative hoodie with 'In Unity There is Strength' message and artistic design",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
       price: "£26.99",
