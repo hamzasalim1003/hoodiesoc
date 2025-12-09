@@ -5,57 +5,48 @@ const Collections = () => {
   const allProducts = [
     {
       id: 1,
-      name: "ISOC Hoodies",
-      description: "Islamic Society designs with beautiful Arabic calligraphy and traditional patterns",
-      frontImage: "/WhatsApp Image 2025-09-10 at 20.29.03_26f58a5f.jpg",
-      backImage: "/WhatsApp Image 2025-09-10 at 20.29.03_d97fb64c.jpg",
+      name: "ISOC Mercy Hoodie",
+      description: "Islamic Society hoodie featuring beautiful Arabic calligraphy with 'Mercy is in our Actions' theme and world design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
       price: "£25.99",
       category: "islamic"
     },
     {
       id: 2,
-      name: "SikhSoc Hoodies",
-      description: "Sikh Society designs featuring Punjabi text and cultural symbols",
-      frontImage: "/WhatsApp Image 2025-09-10 at 20.28.33_f17623f6.jpg",
-      backImage: "/WhatsApp Image 2025-09-10 at 20.28.33_f17623f6.jpg",
+      name: "ISOC Leadership Hoodie",
+      description: "Islamic Society hoodie with powerful servant leadership design, Arabic text, and traditional patterns",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
       price: "£25.99",
-      category: "sikh"
+      category: "islamic"
     },
     {
       id: 3,
-      name: "Palestine Hoodies",
-      description: "Supporting Palestinian causes with meaningful designs and symbols",
-      frontImage: "/WhatsApp Image 2025-09-10 at 20.28.32_6eb50a14.jpg",
-      backImage: "/WhatsApp Image 2025-09-10 at 20.28.32_6eb50a14.jpg",
-      price: "£27.99",
-      category: "palestine"
+      name: "KCL EC President Vest",
+      description: "Executive committee sleeveless vest featuring custom university crest with personalized name printing",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      price: "£32.99",
+      category: "executive"
     },
     {
       id: 4,
-      name: "Palestine Hoodies - Cream",
-      description: "Palestine solidarity hoodies in cream colorway with beautiful Arabic calligraphy",
-      frontImage: "/files_5415238-1758390586313-WhatsApp Image 2025-09-10 at 20.28.32_978053a5.jpg",
-      backImage: "/files_5415238-1758390621116-WhatsApp Image 2025-09-10 at 20.28.32_f51de79f.jpg",
-      price: "£27.99",
-      category: "palestine"
+      name: "KCL EC President Jacket",
+      description: "Executive committee quarter-zip jacket with embroidered crest, perfect for society leaders",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      price: "£35.99",
+      category: "executive"
     },
     {
       id: 5,
-      name: "Foxes FC Jersey",
-      description: "Professional sports jersey for university football teams with custom team branding",
-      frontImage: "/files_5415238-1758390791464-fox.jpg",
-      backImage: "/files_5415238-1758390791464-fox.jpg",
-      price: "£29.99",
-      category: "sports"
-    },
-    {
-      id: 6,
-      name: "Tigers FC Jersey",
-      description: "Custom sports jersey with dynamic tiger design for university sports teams",
-      frontImage: "/files_5415238-1758390799383-tiger.jpg",
-      backImage: "/files_5415238-1758390799383-tiger.jpg",
-      price: "£29.99",
-      category: "sports"
+      name: "Hindu Society President Hoodie",
+      description: "Hindu Society hoodie featuring intricate Om mandala design with Sanskrit text and cultural symbolism",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      price: "£25.99",
+      category: "hindu"
     }
   ];
 
@@ -67,8 +58,8 @@ const Collections = () => {
             Our <span className="text-yellow-400">Collections</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            Explore our range of premium hoodies and sports jerseys designed specifically for university societies. 
-            Each collection celebrates cultural identity and team spirit while maintaining modern style and comfort.
+            Explore our range of premium hoodies, executive wear, and custom apparel designed specifically for university societies.
+            Each collection celebrates cultural identity, leadership, and team spirit while maintaining modern style and comfort.
           </p>
         </div>
 

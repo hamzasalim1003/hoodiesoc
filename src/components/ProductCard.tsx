@@ -55,7 +55,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         
         {/* Type Badge */}
         <div className="absolute top-4 left-4 bg-yellow-400 text-black text-xs px-2 py-1 rounded-full font-medium">
-          {product.category === 'sports' ? 'Sports Jersey' : 'Hoodie'}
+          {product.category === 'sports' ? 'Sports Jersey' :
+           product.category === 'vest' ? 'Vest' :
+           product.category === 'jacket' ? 'Jacket' :
+           product.category === 'executive' ? 'Executive Wear' : 'Hoodie'}
         </div>
         
         {/* View Toggle Indicator */}
