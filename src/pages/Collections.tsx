@@ -5,6 +5,51 @@ const Collections = () => {
   const allProducts = [
     {
       id: 1,
+      name: "LSE ISOC Hoodie Collab",
+      description: "London School of Economics Islamic Society collaborative hoodie featuring 'Mercy is in our Actions' design with Arabic calligraphy and world artwork",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      price: "£25.99",
+      category: "collab"
+    },
+    {
+      id: 2,
+      name: "UCL ISOC Hoodie Collab",
+      description: "University College London Islamic Society collaborative hoodie with powerful servant leadership design and Arabic text",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      price: "£25.99",
+      category: "collab"
+    },
+    {
+      id: 3,
+      name: "KCL EC Gilet Collab",
+      description: "King's College London Executive Committee sleeveless gilet featuring custom university crest with personalized name printing",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      price: "£32.99",
+      category: "executive"
+    },
+    {
+      id: 4,
+      name: "KCL EC Base Layer Collab",
+      description: "King's College London Executive Committee quarter-zip base layer with embroidered crest, perfect for society leaders",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      price: "£35.99",
+      category: "executive"
+    },
+    {
+      id: 5,
+      name: "Aston ACS Hoodie Collab",
+      description: "Aston University Asian Cultural Society collaborative hoodie featuring intricate Om mandala design with Sanskrit text and cultural symbolism",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      price: "£25.99",
+      category: "collab"
+    },
+    {
+      id: 6,
       name: "UOB FOP Hoodie Collab",
       description: "University of Birmingham Friends of Palestine collaborative hoodie featuring botanical artwork and cultural symbolism",
       frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
@@ -13,7 +58,7 @@ const Collections = () => {
       category: "collab"
     },
     {
-      id: 2,
+      id: 7,
       name: "Oxford ISOC Hoodie Collab",
       description: "Oxford University Islamic Society collaboration featuring powerful Palestine solidarity design with golden wings",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
@@ -22,7 +67,7 @@ const Collections = () => {
       category: "collab"
     },
     {
-      id: 3,
+      id: 8,
       name: "Lancaster ISOC Collab",
       description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message and artistic design",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
@@ -31,20 +76,11 @@ const Collections = () => {
       category: "collab"
     },
     {
-      id: 4,
+      id: 9,
       name: "KCL NASOC Hoodie Collab",
       description: "King's College London North African Society hoodie celebrating cultural heritage and community pride",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
-      price: "£26.99",
-      category: "collab"
-    },
-    {
-      id: 5,
-      name: "LSE ISOC Hoodie Collab",
-      description: "London School of Economics Islamic Society collaborative hoodie with 'Mercy is in our Actions' design and Arabic calligraphy",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
       price: "£26.99",
       category: "collab"
     }

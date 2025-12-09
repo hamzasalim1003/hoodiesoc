@@ -8,6 +8,51 @@ const Collections = () => {
   const collections = [
     {
       id: 1,
+      name: "LSE ISOC Hoodie Collab",
+      description: "London School of Economics Islamic Society collaborative hoodie featuring 'Mercy is in our Actions' design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      category: "hoodie",
+      type: "Hoodie"
+    },
+    {
+      id: 2,
+      name: "UCL ISOC Hoodie Collab",
+      description: "University College London Islamic Society collaborative hoodie with servant leadership design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      category: "hoodie",
+      type: "Hoodie"
+    },
+    {
+      id: 3,
+      name: "KCL EC Gilet Collab",
+      description: "King's College London Executive Committee sleeveless gilet with custom crest",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      category: "vest",
+      type: "Gilet"
+    },
+    {
+      id: 4,
+      name: "KCL EC Base Layer Collab",
+      description: "King's College London Executive Committee quarter-zip base layer with embroidered crest",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      category: "jacket",
+      type: "Base Layer"
+    },
+    {
+      id: 5,
+      name: "Aston ACS Hoodie Collab",
+      description: "Aston University Asian Cultural Society hoodie with Om mandala design and Sanskrit text",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      category: "hoodie",
+      type: "Hoodie"
+    },
+    {
+      id: 6,
       name: "UOB FOP Hoodie Collab",
       description: "University of Birmingham Friends of Palestine hoodie with botanical design collaboration",
       frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
@@ -16,7 +61,7 @@ const Collections = () => {
       type: "Hoodie"
     },
     {
-      id: 2,
+      id: 7,
       name: "Oxford ISOC Hoodie Collab",
       description: "Oxford University Islamic Society collaborative hoodie with Palestine solidarity design",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
@@ -25,7 +70,7 @@ const Collections = () => {
       type: "Hoodie"
     },
     {
-      id: 3,
+      id: 8,
       name: "Lancaster ISOC Collab",
       description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
@@ -34,20 +79,11 @@ const Collections = () => {
       type: "Hoodie"
     },
     {
-      id: 4,
+      id: 9,
       name: "KCL NASOC Hoodie Collab",
       description: "King's College London North African Society collaborative hoodie with cultural pride design",
       frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
       backImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
-      category: "hoodie",
-      type: "Hoodie"
-    },
-    {
-      id: 5,
-      name: "LSE ISOC Hoodie Collab",
-      description: "London School of Economics Islamic Society collaborative hoodie with inspiring design",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
       category: "hoodie",
       type: "Hoodie"
     }
