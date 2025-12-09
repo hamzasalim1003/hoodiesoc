@@ -58,7 +58,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           {product.category === 'sports' ? 'Sports Jersey' :
            product.category === 'vest' ? 'Vest' :
            product.category === 'jacket' ? 'Jacket' :
-           product.category === 'executive' ? 'Executive Wear' : 'Hoodie'}
+           product.category === 'executive' ? 'Executive Wear' :
+           product.category === 'collab' ? 'Collaboration' : 'Hoodie'}
         </div>
         
         {/* View Toggle Indicator */}

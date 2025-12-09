@@ -5,48 +5,48 @@ const Collections = () => {
   const allProducts = [
     {
       id: 1,
-      name: "ISOC Mercy Hoodie",
-      description: "Islamic Society hoodie featuring beautiful Arabic calligraphy with 'Mercy is in our Actions' theme and world design",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      price: "£25.99",
-      category: "islamic"
+      name: "UOB FOP Hoodie Collab",
+      description: "University of Birmingham Friends of Palestine collaborative hoodie featuring botanical artwork and cultural symbolism",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      price: "£26.99",
+      category: "collab"
     },
     {
       id: 2,
-      name: "ISOC Leadership Hoodie",
-      description: "Islamic Society hoodie with powerful servant leadership design, Arabic text, and traditional patterns",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
-      price: "£25.99",
-      category: "islamic"
+      name: "Oxford ISOC Hoodie Collab",
+      description: "Oxford University Islamic Society collaboration featuring powerful Palestine solidarity design with golden wings",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
+      price: "£26.99",
+      category: "collab"
     },
     {
       id: 3,
-      name: "KCL EC President Vest",
-      description: "Executive committee sleeveless vest featuring custom university crest with personalized name printing",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
-      price: "£32.99",
-      category: "executive"
+      name: "Lancaster ISOC Collab",
+      description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message and artistic design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      price: "£26.99",
+      category: "collab"
     },
     {
       id: 4,
-      name: "KCL EC President Jacket",
-      description: "Executive committee quarter-zip jacket with embroidered crest, perfect for society leaders",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
-      price: "£35.99",
-      category: "executive"
+      name: "KCL NASOC Hoodie Collab",
+      description: "King's College London North African Society hoodie celebrating cultural heritage and community pride",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
+      price: "£26.99",
+      category: "collab"
     },
     {
       id: 5,
-      name: "Hindu Society President Hoodie",
-      description: "Hindu Society hoodie featuring intricate Om mandala design with Sanskrit text and cultural symbolism",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
-      price: "£25.99",
-      category: "hindu"
+      name: "LSE ISOC Hoodie Collab",
+      description: "London School of Economics Islamic Society collaborative hoodie with 'Mercy is in our Actions' design and Arabic calligraphy",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      price: "£26.99",
+      category: "collab"
     }
   ];
 
@@ -58,8 +58,8 @@ const Collections = () => {
             Our <span className="text-yellow-400">Collections</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            Explore our range of premium hoodies, executive wear, and custom apparel designed specifically for university societies.
-            Each collection celebrates cultural identity, leadership, and team spirit while maintaining modern style and comfort.
+            Explore our exclusive university society collaborations featuring unique designs that celebrate cultural pride, solidarity, and community.
+            Each collection is a limited edition partnership, bringing together meaningful artwork and important messages.
           </p>
         </div>
 

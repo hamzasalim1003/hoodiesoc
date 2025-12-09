@@ -8,46 +8,46 @@ const Collections = () => {
   const collections = [
     {
       id: 1,
-      name: "ISOC Mercy Hoodie",
-      description: "Islamic Society hoodie featuring Arabic calligraphy with 'Mercy is in our Actions' design",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      name: "UOB FOP Hoodie Collab",
+      description: "University of Birmingham Friends of Palestine hoodie with botanical design collaboration",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
     {
       id: 2,
-      name: "ISOC Leadership Hoodie",
-      description: "Islamic Society hoodie with servant leadership design and Arabic text",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      name: "Oxford ISOC Hoodie Collab",
+      description: "Oxford University Islamic Society collaborative hoodie with Palestine solidarity design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
     {
       id: 3,
-      name: "KCL EC President Vest",
-      description: "Executive committee vest with custom crest and personalized back print",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
-      category: "vest",
-      type: "Vest"
+      name: "Lancaster ISOC Collab",
+      description: "Lancaster University Islamic Society collaborative hoodie with 'In Unity There is Strength' message",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      category: "hoodie",
+      type: "Hoodie"
     },
     {
       id: 4,
-      name: "KCL EC President Jacket",
-      description: "Executive committee quarter-zip jacket with embroidered crest and personalization",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
-      category: "jacket",
-      type: "Jacket"
+      name: "KCL NASOC Hoodie Collab",
+      description: "King's College London North African Society collaborative hoodie with cultural pride design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
+      category: "hoodie",
+      type: "Hoodie"
     },
     {
       id: 5,
-      name: "Hindu Society President Hoodie",
-      description: "Hindu Society hoodie with Om mandala design and Sanskrit text",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      name: "LSE ISOC Hoodie Collab",
+      description: "London School of Economics Islamic Society collaborative hoodie with inspiring design",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
       category: "hoodie",
       type: "Hoodie"
     }
@@ -74,7 +74,7 @@ const Collections = () => {
             Featured <span className="text-yellow-400">Collections</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Discover our range of society hoodies, executive wear, and custom apparel, each designed with cultural pride and modern style
+            Discover our exclusive university society collaborations, featuring unique designs that celebrate cultural identity and solidarity
           </p>
         </div>
 
