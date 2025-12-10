@@ -1,43 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Star, Award, Heart, Users, CheckCircle2, Mail, Phone, School } from 'lucide-react';
 
 const SchoolLeavers = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    role: '',
-    schoolName: '',
-    email: '',
-    phone: '',
-    yearGroup: '',
-    quantity: '',
-    message: ''
-  });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: '',
-        role: '',
-        schoolName: '',
-        email: '',
-        phone: '',
-        yearGroup: '',
-        quantity: '',
-        message: ''
-      });
-    }, 5000);
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -376,159 +340,133 @@ const SchoolLeavers = () => {
             </p>
           </div>
 
-          {submitted ? (
-            <div className="bg-yellow-400/10 border border-yellow-400 rounded-xl p-12 text-center">
-              <CheckCircle2 className="text-yellow-400 mx-auto mb-4" size={64} />
-              <h3 className="text-2xl font-bold text-white mb-2">Thank You!</h3>
-              <p className="text-gray-300 text-lg">
-                We've received your enquiry and will be in touch about your 2026 leavers hoodies soon.
-              </p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="bg-gray-900 border border-gray-800 rounded-xl p-8">
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label htmlFor="name" className="block text-white font-semibold mb-2">
-                    Name <span className="text-yellow-400">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                    placeholder="Your full name"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="role" className="block text-white font-semibold mb-2">
-                    Role <span className="text-yellow-400">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="role"
-                    name="role"
-                    required
-                    value={formData.role}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                    placeholder="e.g. Head of Year, Teacher, Parent"
-                  />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <label htmlFor="schoolName" className="block text-white font-semibold mb-2">
-                  School Name <span className="text-yellow-400">*</span>
+          <form action="https://formspree.io/f/mldqpowe" method="POST" className="bg-gray-900 border border-gray-800 rounded-xl p-8">
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label htmlFor="name" className="block text-white font-semibold mb-2">
+                  Name <span className="text-yellow-400">*</span>
                 </label>
                 <input
                   type="text"
-                  id="schoolName"
-                  name="schoolName"
+                  id="name"
+                  name="name"
                   required
-                  value={formData.schoolName}
-                  onChange={handleChange}
                   className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                  placeholder="Your school name"
+                  placeholder="Your full name"
                 />
               </div>
 
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label htmlFor="email" className="block text-white font-semibold mb-2">
-                    Email Address <span className="text-yellow-400">*</span>
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                    placeholder="your.email@school.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-white font-semibold mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                    placeholder="Optional"
-                  />
-                </div>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label htmlFor="yearGroup" className="block text-white font-semibold mb-2">
-                    Year Group
-                  </label>
-                  <select
-                    id="yearGroup"
-                    name="yearGroup"
-                    value={formData.yearGroup}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white focus:outline-none focus:border-yellow-400 transition-colors"
-                  >
-                    <option value="">Select year group</option>
-                    <option value="year6">Year 6</option>
-                    <option value="year11">Year 11</option>
-                    <option value="year13">Year 13/Sixth Form</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="quantity" className="block text-white font-semibold mb-2">
-                    Estimated Number of Hoodies
-                  </label>
-                  <input
-                    type="text"
-                    id="quantity"
-                    name="quantity"
-                    value={formData.quantity}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
-                    placeholder="Approximate number"
-                  />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <label htmlFor="message" className="block text-white font-semibold mb-2">
-                  Message
+              <div>
+                <label htmlFor="role" className="block text-white font-semibold mb-2">
+                  Role <span className="text-yellow-400">*</span>
                 </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors resize-none"
-                  placeholder="Tell us about your design ideas, school colours, or any questions you have..."
+                <input
+                  type="text"
+                  id="role"
+                  name="role"
+                  required
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
+                  placeholder="e.g. Head of Year, Teacher, Parent"
+                />
+              </div>
+            </div>
+
+            <div className="mb-6">
+              <label htmlFor="schoolName" className="block text-white font-semibold mb-2">
+                School Name <span className="text-yellow-400">*</span>
+              </label>
+              <input
+                type="text"
+                id="schoolName"
+                name="schoolName"
+                required
+                className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
+                placeholder="Your school name"
+              />
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label htmlFor="email" className="block text-white font-semibold mb-2">
+                  Email Address <span className="text-yellow-400">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
+                  placeholder="your.email@school.com"
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center space-x-2"
-              >
-                <Mail size={20} />
-                <span>Request My Design</span>
-              </button>
-            </form>
-          )}
+              <div>
+                <label htmlFor="phone" className="block text-white font-semibold mb-2">
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
+                  placeholder="Optional"
+                />
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label htmlFor="yearGroup" className="block text-white font-semibold mb-2">
+                  Year Group
+                </label>
+                <select
+                  id="yearGroup"
+                  name="yearGroup"
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white focus:outline-none focus:border-yellow-400 transition-colors"
+                >
+                  <option value="">Select year group</option>
+                  <option value="year6">Year 6</option>
+                  <option value="year11">Year 11</option>
+                  <option value="year13">Year 13/Sixth Form</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label htmlFor="quantity" className="block text-white font-semibold mb-2">
+                  Estimated Number of Hoodies
+                </label>
+                <input
+                  type="text"
+                  id="quantity"
+                  name="quantity"
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors"
+                  placeholder="Approximate number"
+                />
+              </div>
+            </div>
+
+            <div className="mb-6">
+              <label htmlFor="message" className="block text-white font-semibold mb-2">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows={5}
+                className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 transition-colors resize-none"
+                placeholder="Tell us about your design ideas, school colours, or any questions you have..."
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center space-x-2"
+            >
+              <Mail size={20} />
+              <span>Request My Design</span>
+            </button>
+          </form>
         </div>
       </section>
     </div>
