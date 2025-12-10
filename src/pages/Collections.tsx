@@ -34,8 +34,8 @@ const Collections = () => {
       id: 4,
       name: "KCL EC Base Layer Collab",
       description: "King's College London Executive Committee quarter-zip base layer with embroidered crest, perfect for society leaders",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.03_75f60bd2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.03_75f60bd2.jpg",
       price: "£35.99",
       category: "executive"
     },
