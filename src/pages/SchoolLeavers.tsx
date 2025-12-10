@@ -143,7 +143,7 @@ const SchoolLeavers = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300">
                 <img
-                  src="/kensington_wade_leavers_black_simple.png"
+                  src="/whatsapp_image_2025-12-09_at_19.55.20_5602fdc5.jpg"
                   alt="School Leavers Hoodie 2026"
                   className="w-full h-auto"
                 />
