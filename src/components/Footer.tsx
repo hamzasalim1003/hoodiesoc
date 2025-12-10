@@ -26,13 +26,13 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="mailto:info@hoodiesociety.com"
+                href="mailto:hoodiesociety103@gmail.com"
                 className="text-gray-400 hover:text-yellow-400 transition-colors"
               >
                 <Mail size={20} />
               </a>
               <a
-                href="tel:+44123456789"
+                href="tel:+447346094301"
                 className="text-gray-400 hover:text-yellow-400 transition-colors"
               >
                 <Phone size={20} />
