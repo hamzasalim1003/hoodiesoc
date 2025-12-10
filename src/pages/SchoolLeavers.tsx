@@ -117,11 +117,11 @@ const SchoolLeavers = () => {
             </div>
 
             <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300 bg-gray-900 p-6">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300">
                 <img
                   src="/whatsapp_image_2025-12-09_at_19.55.22_e5c0b677.jpg"
                   alt="School Leavers Hoodie 2026"
-                  className="w-full h-auto object-contain"
+                  className="w-full h-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
               </div>
@@ -220,11 +220,11 @@ const SchoolLeavers = () => {
                 key={design.id}
                 className="group bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-yellow-400/50 transition-all duration-300 transform hover:scale-105"
               >
-                <div className="aspect-square relative bg-gray-900 p-4">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={design.image}
                     alt={design.name}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -353,11 +353,11 @@ const SchoolLeavers = () => {
               </div>
             </div>
 
-            <div className="relative bg-gray-900 rounded-2xl shadow-2xl p-6">
+            <div className="relative">
               <img
                 src="/whatsapp_image_2025-12-09_at_19.55.23_45ca4d76.jpg"
                 alt="Personalised School Leavers Hoodie"
-                className="w-full h-auto object-contain rounded-xl"
+                className="rounded-2xl shadow-2xl"
               />
             </div>
           </div>
