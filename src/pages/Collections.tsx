@@ -43,8 +43,8 @@ const Collections = () => {
       id: 5,
       name: "KCL EC Jacket Collab",
       description: "King's College London Executive Committee jacket featuring botanical design and custom university crest",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_11.03.48_251931a6.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_11.03.48_251931a6.jpg",
       price: "£39.99",
       category: "executive"
     },
