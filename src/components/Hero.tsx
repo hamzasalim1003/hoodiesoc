@@ -21,11 +21,9 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto w-full space-y-6">
         {/* Logo */}
         <div className="animate-fade-in">
-          <img
-            src="/hod (1).png"
-            alt="Hoodie Society"
-            className="h-12 md:h-16 lg:h-20 w-auto mx-auto object-contain filter drop-shadow-2xl"
-          />
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-yellow-400 tracking-tight">
+            HOODIE SOCIETY
+          </h1>
         </div>
 
         {/* Tagline */}
