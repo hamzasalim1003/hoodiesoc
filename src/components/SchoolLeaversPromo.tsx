@@ -10,7 +10,7 @@ const SchoolLeaversPromo = () => {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/whatsapp_image_2025-12-09_at_19.55.22_e5c0b677.jpg"
+                src="/whatsapp_image_2025-12-09_at_19.55.21_d494b1a4.jpg"
                 alt="School Leavers Hoodies 2026"
                 className="w-full h-auto"
               />
