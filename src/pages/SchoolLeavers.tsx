@@ -379,7 +379,7 @@ const SchoolLeavers = () => {
 
             <div className="relative">
               <img
-                src="/kensington_wade_leavers_black_detailed.png"
+                src="/whatsapp_image_2025-12-09_at_19.55.21_df31912e.jpg"
                 alt="Personalised School Leavers Hoodie"
                 className="rounded-2xl shadow-2xl"
               />
