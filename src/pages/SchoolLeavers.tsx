@@ -49,30 +49,54 @@ const SchoolLeavers = () => {
   const leaversDesigns = [
     {
       id: 1,
+      name: "Signature Leavers Hoodie",
+      description: "Premium black hoodie featuring elegant Kensington Wade branding with golden crest on front. Back displays 'SOPHIA 26 LEAVERS' with student signatures artistically arranged in the number.",
+      image: "/kensington_wade_leavers_black_simple.png"
+    },
+    {
+      id: 2,
+      name: "Premium Names Edition",
+      description: "Black hoodie with sophisticated Kensington Wade design on front. Back features all student names elegantly arranged within the '26' number outline with golden accents.",
+      image: "/kensington_wade_leavers_black_detailed.png"
+    },
+    {
+      id: 3,
+      name: "Navy Quarter-Zip Executive",
+      description: "Professional navy quarter-zip with embroidered Kensington Wade crest. Back displays 'SOPHIA 26 LEAVERS' with complete student name roster in premium typography.",
+      image: "/kensington_wade_leavers_navy_quarterzip.png"
+    },
+    {
+      id: 4,
+      name: "Maroon 2025 Heritage",
+      description: "Rich maroon hoodie featuring Kensington Wade branding with '2025 LEAVERS' chest print. Back showcases 'SOPHIA 26 LEAVERS' with full student names in golden outlined design.",
+      image: "/kensington_wade_leavers_maroon_2025.png"
+    },
+    {
+      id: 5,
       name: "Classic Leavers 2026",
       description: "Traditional 'Class of 26' back print with all student names in bold typography. School crest embroidered on the front chest.",
       image: "/whatsapp_image_2025-12-09_at_19.55.22_e5c0b677.jpg"
     },
     {
-      id: 2,
+      id: 6,
       name: "Streetwear Leavers",
       description: "Bold, modern back graphic with large '26 LEAVERS' text and student names integrated into the number design. Contemporary and eye-catching.",
       image: "/whatsapp_image_2025-12-09_at_19.55.23_45ca4d76.jpg"
     },
     {
-      id: 3,
+      id: 7,
       name: "Quarter-Zip Premium",
       description: "Sophisticated quarter-zip style with embroidered school crest on chest. Names arranged in the '26' on the back in gold/white text.",
       image: "/whatsapp_image_2025-12-09_at_20.03.29_17683f0a.jpg"
     },
     {
-      id: 4,
+      id: 8,
       name: "Heritage Leavers",
       description: "Premium design featuring school name and crest with traditional typography. Classic '2025 LEAVERS' chest detail, full names on back.",
       image: "/whatsapp_image_2025-12-09_at_20.03.29_64d92fcf.jpg"
     },
     {
-      id: 5,
+      id: 9,
       name: "Full-Zip Signature",
       description: "Full-zip hoodie with embroidered crest and personalized name on chest. Back features bold '26 LEAVERS' with all student names.",
       image: "/whatsapp_image_2025-12-09_at_20.03.29_eff8d5f0.jpg"
@@ -119,7 +143,7 @@ const SchoolLeavers = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300">
                 <img
-                  src="/whatsapp_image_2025-12-09_at_19.55.22_e5c0b677.jpg"
+                  src="/kensington_wade_leavers_black_simple.png"
                   alt="School Leavers Hoodie 2026"
                   className="w-full h-auto"
                 />
@@ -355,7 +379,7 @@ const SchoolLeavers = () => {
 
             <div className="relative">
               <img
-                src="/whatsapp_image_2025-12-09_at_19.55.23_45ca4d76.jpg"
+                src="/kensington_wade_leavers_black_detailed.png"
                 alt="Personalised School Leavers Hoodie"
                 className="rounded-2xl shadow-2xl"
               />
