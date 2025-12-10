@@ -41,14 +41,14 @@ const Hero = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
-          Premium quality hoodies designed and personalized for university societies
+          Premium quality hoodies designed and personalized for university societies and schools.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-400">
           <Link
             to="/collections"
-            className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-yellow-400/25 whitespace-nowrap"
+            className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:text-black transform hover:scale-105 transition-all duration-200 whitespace-nowrap"
           >
             Order for Your Society
           </Link>
@@ -56,14 +56,14 @@ const Hero = () => {
             to="/collections"
             className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:text-black transform hover:scale-105 transition-all duration-200 whitespace-nowrap"
           >
-            Browse Hoodies
+            Order for Your School
           </Link>
         </div>
 
         {/* Trust Indicator */}
         <div className="animate-fade-in-up animation-delay-600">
           <p className="text-gray-400 text-sm mb-1">Trusted by</p>
-          <p className="text-yellow-400 text-xl font-bold">30+ Happy Societies</p>
+          <p className="text-yellow-400 text-xl font-bold">30+ Happy Societies and Schools</p>
         </div>
       </div>
 
