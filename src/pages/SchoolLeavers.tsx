@@ -93,7 +93,7 @@ const SchoolLeavers = () => {
       id: 8,
       name: "Heritage Leavers",
       description: "Premium design featuring school name and crest with traditional typography. Classic '2025 LEAVERS' chest detail, full names on back.",
-      image: "/whatsapp_image_2025-12-09_at_20.03.29_64d92fcf.jpg"
+      image: "/whatsapp_image_2025-12-09_at_19.55.20_4193350b.jpg"
     },
     {
       id: 9,
