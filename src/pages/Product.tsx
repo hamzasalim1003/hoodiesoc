@@ -41,7 +41,7 @@ const Product = () => {
     
     // In a real app, this would redirect to a proper order form
     const whatsappMessage = `Hi! I'd like to order: ${product.name} (Size: ${selectedSize}, Color: ${selectedColor})${personalizationText ? `, Personalization: ${personalizationText} (${language})` : ''}`;
-    const whatsappUrl = `https://wa.me/447346094301?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 

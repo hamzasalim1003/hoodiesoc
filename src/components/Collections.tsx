@@ -10,8 +10,8 @@ const Collections = () => {
       id: 1,
       name: "LSE ISOC Hoodie Collab",
       description: "London School of Economics Islamic Society collaborative hoodie featuring 'Mercy is in our Actions' design",
-      frontImage: "https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148579/pexels-photo-8148579.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
@@ -19,8 +19,8 @@ const Collections = () => {
       id: 2,
       name: "UCL ISOC Hoodie Collab",
       description: "University College London Islamic Society collaborative hoodie with servant leadership design",
-      frontImage: "https://images.pexels.com/photos/8148582/pexels-photo-8148582.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148584/pexels-photo-8148584.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_962499a1.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
@@ -28,8 +28,8 @@ const Collections = () => {
       id: 3,
       name: "KCL EC Gilet Collab",
       description: "King's College London Executive Committee sleeveless gilet with custom crest",
-      frontImage: "https://images.pexels.com/photos/8148585/pexels-photo-8148585.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148586/pexels-photo-8148586.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
       category: "vest",
       type: "Gilet"
     },
@@ -37,8 +37,8 @@ const Collections = () => {
       id: 4,
       name: "KCL EC Base Layer Collab",
       description: "King's College London Executive Committee quarter-zip base layer with embroidered crest",
-      frontImage: "https://images.pexels.com/photos/7945638/pexels-photo-7945638.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/7945639/pexels-photo-7945639.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_70228bf9.jpg",
       category: "jacket",
       type: "Base Layer"
     },
@@ -46,8 +46,8 @@ const Collections = () => {
       id: 5,
       name: "KCL EC Jacket Collab",
       description: "King's College London Executive Committee jacket with botanical design and custom crest",
-      frontImage: "https://images.pexels.com/photos/8148587/pexels-photo-8148587.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148588/pexels-photo-8148588.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.25.41_84983985.jpg",
       category: "jacket",
       type: "Jacket"
     },
@@ -55,8 +55,8 @@ const Collections = () => {
       id: 6,
       name: "Aston ACS Hoodie Collab",
       description: "Aston University Asian Cultural Society hoodie with Om mandala design and Sanskrit text",
-      frontImage: "https://images.pexels.com/photos/8148589/pexels-photo-8148589.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148590/pexels-photo-8148590.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
@@ -64,8 +64,8 @@ const Collections = () => {
       id: 7,
       name: "PakSoc Hoodie Collab",
       description: "Pakistan Society collaborative hoodie with Palestine solidarity design and golden wings",
-      frontImage: "https://images.pexels.com/photos/8148591/pexels-photo-8148591.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148592/pexels-photo-8148592.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
@@ -73,8 +73,8 @@ const Collections = () => {
       id: 8,
       name: "KCL ACMS Collab",
       description: "King's College London African Caribbean Medical Society collaborative hoodie with 'In Unity There is Strength' message",
-      frontImage: "https://images.pexels.com/photos/8148593/pexels-photo-8148593.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148594/pexels-photo-8148594.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
       category: "hoodie",
       type: "Hoodie"
     },
@@ -82,8 +82,8 @@ const Collections = () => {
       id: 9,
       name: "KCL NASOC Hoodie Collab",
       description: "King's College London North African Society collaborative hoodie with cultural pride design",
-      frontImage: "https://images.pexels.com/photos/8148595/pexels-photo-8148595.jpeg?auto=compress&cs=tinysrgb&w=800",
-      backImage: "https://images.pexels.com/photos/8148596/pexels-photo-8148596.jpeg?auto=compress&cs=tinysrgb&w=800",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_c2507593.jpg",
       category: "hoodie",
       type: "Hoodie"
     }
