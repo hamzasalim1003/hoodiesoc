@@ -7,8 +7,8 @@ const Collections = () => {
       id: 1,
       name: "LSE ISOC Hoodie Collab",
       description: "London School of Economics Islamic Society collaborative hoodie featuring 'Mercy is in our Actions' design with Arabic calligraphy and world artwork",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_678697b2.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.19_d1299711.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.19_d1299711.jpg",
       price: "£25.99",
       category: "collab"
     },
