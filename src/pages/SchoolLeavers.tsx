@@ -72,12 +72,6 @@ const SchoolLeavers = () => {
       image: "/whatsapp_image_2025-12-09_at_20.03.27_749a9b02.jpg"
     },
     {
-      id: 5,
-      name: "Classic Leavers 2026",
-      description: "Traditional 'Class of 26' back print with all student names in bold typography. School crest embroidered on the front chest.",
-      image: "/whatsapp_image_2025-12-09_at_19.55.22_e5c0b677.jpg"
-    },
-    {
       id: 6,
       name: "Streetwear Leavers",
       description: "Bold, modern back graphic with large '26 LEAVERS' text and student names integrated into the number design. Contemporary and eye-catching.",
