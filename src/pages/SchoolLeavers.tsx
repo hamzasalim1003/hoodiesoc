@@ -51,7 +51,7 @@ const SchoolLeavers = () => {
       id: 1,
       name: "Signature Leavers Hoodie",
       description: "Premium black hoodie featuring elegant Kensington Wade branding with golden crest on front. Back displays 'SOPHIA 26 LEAVERS' with student signatures artistically arranged in the number.",
-      image: "/kensington_wade_leavers_black_simple.png"
+      image: "whatsapp_image_2025-12-09_at_19.55.20_a3ee241c.jpg"
     },
     {
       id: 2,
