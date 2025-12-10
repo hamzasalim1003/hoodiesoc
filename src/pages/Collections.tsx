@@ -61,8 +61,8 @@ const Collections = () => {
       id: 7,
       name: "PakSoc Hoodie Collab",
       description: "Pakistan Society collaborative hoodie featuring powerful Palestine solidarity design with golden wings and Arabic calligraphy",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_3d3958ab.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_3e1124c4.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_3e1124c4.jpg",
       price: "£26.99",
       category: "collab"
     },
