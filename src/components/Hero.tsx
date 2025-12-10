@@ -22,7 +22,7 @@ const Hero = () => {
         {/* Logo */}
         <div className="animate-fade-in">
           <img
-            src="/hod (1).png"
+            src="/hod_(1).png"
             alt="Hoodie Society"
             className="h-12 md:h-16 lg:h-20 w-auto mx-auto object-contain filter drop-shadow-2xl"
           />
