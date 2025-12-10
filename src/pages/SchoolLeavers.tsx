@@ -57,7 +57,7 @@ const SchoolLeavers = () => {
       id: 2,
       name: "Premium Names Edition",
       description: "Black hoodie with sophisticated Kensington Wade design on front. Back features all student names elegantly arranged within the '26' number outline with golden accents.",
-      image: "/kensington_wade_leavers_black_detailed.png"
+      image: "/whatsapp_image_2025-12-09_at_19.55.21_f890ecf0.jpg"
     },
     {
       id: 3,
