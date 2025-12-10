@@ -72,24 +72,6 @@ const SchoolLeavers = () => {
       image: "/whatsapp_image_2025-12-09_at_20.03.27_749a9b02.jpg"
     },
     {
-      id: 6,
-      name: "Streetwear Leavers",
-      description: "Bold, modern back graphic with large '26 LEAVERS' text and student names integrated into the number design. Contemporary and eye-catching.",
-      image: "/whatsapp_image_2025-12-09_at_19.55.23_45ca4d76.jpg"
-    },
-    {
-      id: 7,
-      name: "Quarter-Zip Premium",
-      description: "Sophisticated quarter-zip style with embroidered school crest on chest. Names arranged in the '26' on the back in gold/white text.",
-      image: "/whatsapp_image_2025-12-09_at_20.03.29_17683f0a.jpg"
-    },
-    {
-      id: 8,
-      name: "Heritage Leavers",
-      description: "Premium design featuring school name and crest with traditional typography. Classic '2025 LEAVERS' chest detail, full names on back.",
-      image: "/whatsapp_image_2025-12-09_at_19.55.20_4193350b.jpg"
-    },
-    {
       id: 9,
       name: "Full-Zip Signature",
       description: "Full-zip hoodie with embroidered crest and personalized name on chest. Back features bold '26 LEAVERS' with all student names.",
