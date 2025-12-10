@@ -63,7 +63,7 @@ const SchoolLeavers = () => {
       id: 3,
       name: "Navy Quarter-Zip Executive",
       description: "Professional navy quarter-zip with embroidered Kensington Wade crest. Back displays 'SOPHIA 26 LEAVERS' with complete student name roster in premium typography.",
-      image: "/kensington_wade_leavers_navy_quarterzip.png"
+      image: "whatsapp_image_2025-12-09_at_20.03.27_184c1092.jpg"
     },
     {
       id: 4,
