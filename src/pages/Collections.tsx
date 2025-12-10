@@ -52,8 +52,8 @@ const Collections = () => {
       id: 6,
       name: "Aston ACS Hoodie Collab",
       description: "Aston University Asian Cultural Society collaborative hoodie featuring intricate Om mandala design with Sanskrit text and cultural symbolism",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4423f42f.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.20_a57e09e5.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.20_a57e09e5.jpg",
       price: "£25.99",
       category: "collab"
     },
