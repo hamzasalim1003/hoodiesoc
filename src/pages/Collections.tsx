@@ -25,8 +25,8 @@ const Collections = () => {
       id: 3,
       name: "KCL EC Gilet Collab",
       description: "King's College London Executive Committee sleeveless gilet featuring custom university crest with personalized name printing",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_1f880fbc.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.15.06_b91ca4fa.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.15.06_b91ca4fa.jpg",
       price: "£32.99",
       category: "executive"
     },
