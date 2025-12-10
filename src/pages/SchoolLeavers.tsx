@@ -99,7 +99,7 @@ const SchoolLeavers = () => {
       id: 9,
       name: "Full-Zip Signature",
       description: "Full-zip hoodie with embroidered crest and personalized name on chest. Back features bold '26 LEAVERS' with all student names.",
-      image: "/whatsapp_image_2025-12-09_at_20.03.29_eff8d5f0.jpg"
+      image: "/whatsapp_image_2025-12-09_at_20.03.27_601e29c1.jpg"
     }
   ];
 
