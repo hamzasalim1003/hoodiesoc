@@ -69,7 +69,7 @@ const SchoolLeavers = () => {
       id: 4,
       name: "Maroon 2025 Heritage",
       description: "Rich maroon hoodie featuring Kensington Wade branding with '2025 LEAVERS' chest print. Back showcases 'SOPHIA 26 LEAVERS' with full student names in golden outlined design.",
-      image: "/kensington_wade_leavers_maroon_2025.png"
+      image: "/whatsapp_image_2025-12-09_at_20.03.27_749a9b02.jpg"
     },
     {
       id: 5,
