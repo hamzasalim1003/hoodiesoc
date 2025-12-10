@@ -70,8 +70,8 @@ const Collections = () => {
       id: 8,
       name: "KCL ACMS Collab",
       description: "King's College London African Caribbean Medical Society collaborative hoodie with 'In Unity There is Strength' message and artistic design",
-      frontImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
-      backImage: "/whatsapp_image_2025-12-09_at_09.09.22_4871131e.jpg",
+      frontImage: "/whatsapp_image_2025-12-09_at_09.09.23_8905395e.jpg",
+      backImage: "/whatsapp_image_2025-12-09_at_09.09.23_8905395e.jpg",
       price: "£26.99",
       category: "collab"
     },
