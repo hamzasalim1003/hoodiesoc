@@ -4,17 +4,15 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden py-16">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-transparent"></div>
-        <div
-          className="w-full h-full"
-          style={{
-            backgroundImage: `radial-gradient(circle at 25% 25%, #D4A574 0%, transparent 50%), 
-                             radial-gradient(circle at 75% 75%, #D4A574 0%, transparent 50%)`,
-            backgroundSize: '100px 100px'
-          }}
-        ></div>
+      {/* Banner Image */}
+      <div className="absolute inset-0">
+        <img
+          src="/banner45.png"
+          alt="Societies and schools in Hoodie Society gear"
+          className="w-full h-full object-cover object-top"
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
       {/* Main Content Container with Ultra-Tight Spacing */}
@@ -32,16 +30,14 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
             <span className="bg-gradient-to-r from-white to-yellow-400 bg-clip-text text-transparent">
-              Founded by Uni Students,
+              Premium School, Sports & Society Apparel
             </span>
-            <br />
-            <span className="text-yellow-400">Made for Societies</span>
           </h1>
         </div>
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
-          Premium quality hoodies designed and personalized for university societies and schools.
+          UK-based custom apparel for schools, sports teams and university societies, designed to build identity, pride and recognition.
         </p>
 
         {/* CTA Buttons */}
