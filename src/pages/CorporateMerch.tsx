@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Building2, Palette, Truck, Users, CircleCheck as CheckCircle2, Mail, Shirt, Coffee, Notebook, Award, ArrowRight } from 'lucide-react';
+import { Briefcase, Building2, Palette, Truck, Users, CircleCheck as CheckCircle2, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CorporateMerch = () => {
@@ -39,28 +39,40 @@ const CorporateMerch = () => {
 
   const productTypes = [
     {
-      icon: <Shirt size={28} />,
-      name: 'Branded Hoodies & Sweatshirts',
+      image: '/ChatGPT_Image_Jun_21,_2026,_06_05_14_PM.png',
+      name: 'Tote Bags',
       description:
-        'Premium embroidered or printed hoodies and sweatshirts featuring your company logo and colours.',
+        'A simple, useful way to get your logo in front of clients. Perfect for events, staff gifting and welcome packs.',
     },
     {
-      icon: <Notebook size={28} />,
-      name: 'Corporate Polos & T-Shirts',
+      image: '/whatsapp_image_2025-12-09_at_19.55.20_a3ee241c.jpg',
+      name: 'Quarter-Zips',
       description:
-        'Smart-casual uniforms perfect for events, retail staff, and everyday office wear.',
+        'The most requested piece for offices: smart enough for client meetings, casual enough for every day.',
     },
     {
-      icon: <Coffee size={28} />,
-      name: 'Promotional Merchandise',
+      image: '/ChatGPT_Image_Jun_21,_2026,_06_09_10_PM.png',
+      name: 'Corporate Sport Kits',
       description:
-        'Tote bags, notebooks, drinkware and more — fully branded giveaways for clients and events.',
+        'Full kits for company sports days, five-a-side teams and wellness events, embroidered with logo, name and number.',
     },
     {
-      icon: <Award size={28} />,
-      name: 'Executive & Gifting Range',
+      image: '/ChatGPT_Image_Jun_21,_2026,_07_18_12_PM.png',
+      name: 'Tipped Polos',
       description:
-        'High-end jackets, quarter-zips and premium gifts for leadership teams and VIP clients.',
+        'A sharper look for client-facing staff and front-of-house teams, with a twin-tipped collar and embroidered logo.',
+    },
+    {
+      image: '/ChatGPT_Image_Jun_21,_2026,_07_11_36_PM.png',
+      name: 'Padded Jackets',
+      description:
+        'A premium option for senior staff and site visits, with role and name embroidered for a polished finish.',
+    },
+    {
+      image: '/whatsapp_image_2025-12-09_at_09.15.06_b91ca4fa.jpg',
+      name: 'Gilets',
+      description:
+        'Practical layering for site visits, warehouses and outdoor briefings, embroidered with logo, name and role.',
     },
   ];
 
@@ -199,23 +211,20 @@ const CorporateMerch = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {productTypes.map((product, index) => (
-              <div
-                key={index}
-                className="group bg-black border border-gray-800 rounded-xl p-8 hover:border-yellow-400/50 transition-all duration-300 transform hover:scale-[1.02]"
-              >
-                <div className="flex items-start space-x-5">
-                  <div className="bg-yellow-400/10 w-14 h-14 rounded-lg flex items-center justify-center text-yellow-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    {product.icon}
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors">
-                      {product.name}
-                    </h3>
-                    <p className="text-gray-400 leading-relaxed">{product.description}</p>
-                  </div>
+              <div key={index} className="group">
+                <div className="overflow-hidden rounded-xl mb-4 aspect-square bg-gray-800">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
+                <h3 className="text-xl font-bold italic text-yellow-400 mb-2">
+                  {product.name}
+                </h3>
+                <p className="text-gray-400 leading-relaxed text-sm">{product.description}</p>
               </div>
             ))}
           </div>
@@ -440,3 +449,6 @@ const CorporateMerch = () => {
 };
 
 export default CorporateMerch;
+
+
+export default CorporateMerch
