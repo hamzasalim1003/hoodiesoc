@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Collections from './pages/Collections';
 import SchoolLeavers from './pages/SchoolLeavers';
+import CorporateMerch from './pages/CorporateMerch';
 import Product from './pages/Product';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/collections" element={<Collections />} />
           <Route path="/school-leavers" element={<SchoolLeavers />} />
+          <Route path="/corporate-merch" element={<CorporateMerch />} />
           <Route path="/product/:id" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
