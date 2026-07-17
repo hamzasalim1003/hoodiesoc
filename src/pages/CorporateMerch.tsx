@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Building2, Palette, Truck, Users, CircleCheck as CheckCircle2, Mail, ArrowRight } from 'lucide-react';
+import { Briefcase, Building2, Palette, Truck, Users, CheckCircle2, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CorporateMerch = () => {
@@ -449,6 +449,5 @@ const CorporateMerch = () => {
 };
 
 export default CorporateMerch;
-
 
 export default CorporateMerch
