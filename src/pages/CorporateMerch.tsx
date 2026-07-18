@@ -449,5 +449,3 @@ const CorporateMerch = () => {
 };
 
 export default CorporateMerch;
-
-export default CorporateMerch
