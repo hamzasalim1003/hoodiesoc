@@ -38,31 +38,31 @@ const CorporateMerch = () => {
 
   const productTypes = [
     {
-      image: '/ChatGPT_Image_Jun_21,_2026,_06_05_14_PM.png',
+      image: '/image copy copy.png',
       name: 'Tote Bags',
       description:
         'A simple, useful way to get your logo in front of clients. Perfect for events, staff gifting and welcome packs.',
     },
     {
-      image: '/whatsapp_image_2025-12-09_at_19.55.20_a3ee241c.jpg',
+      image: '/ChatGPT_Image_Jun_21,_2026,_07_11_36_PM copy.png',
       name: 'Quarter-Zips',
       description:
         'The most requested piece for offices: smart enough for client meetings, casual enough for every day.',
     },
     {
-      image: '/ChatGPT_Image_Jun_21,_2026,_06_09_10_PM.png',
+      image: '/ChatGPT_Image_May_28,_2026,_12_14_00_PM.png',
       name: 'Corporate Sport Kits',
       description:
         'Full kits for company sports days, five-a-side teams and wellness events, embroidered with logo, name and number.',
     },
     {
-      image: '/ChatGPT_Image_Jun_21,_2026,_07_18_12_PM.png',
+      image: '/ChatGPT_Image_Jun_21,_2026,_06_09_10_PM copy.png',
       name: 'Tipped Polos',
       description:
         'A sharper look for client-facing staff and front-of-house teams, with a twin-tipped collar and embroidered logo.',
     },
     {
-      image: '/ChatGPT_Image_Jun_21,_2026,_07_11_36_PM.png',
+      image: '/ChatGPT_Image_Jun_21,_2026,_06_05_14_PM copy.png',
       name: 'Padded Jackets',
       description:
         'A premium option for senior staff and site visits, with role and name embroidered for a polished finish.',
