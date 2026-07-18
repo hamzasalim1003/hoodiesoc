@@ -139,8 +139,8 @@ const CorporateMerch = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300">
                 <img
-                  src="/whatsapp_image_2025-12-09_at_11.03.48_251931a6.jpg"
-                  alt="Corporate Merch"
+                  src="/1689828011244.jpeg"
+                  alt="Corporate team in branded uniforms"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
